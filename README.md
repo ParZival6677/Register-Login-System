@@ -27,7 +27,7 @@ Outline the technologies, programming languages, frameworks, and tools used in t
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/ParZival6677/Register-Login-System.git
     ```
 
 2. Install dependencies:

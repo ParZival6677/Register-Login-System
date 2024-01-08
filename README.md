@@ -1,4 +1,4 @@
-# Project Title
+# Registration and Login System with Node.js and PostgreSQL
 
 ## Table of Contents
 
@@ -80,15 +80,24 @@ List and describe the available API endpoints with their corresponding HTTP meth
 
 2. `POST /api/users/login`: 
 
-**Description**: Authenticates a user for login.
+- **Description**: Authenticates a user for login.
 
--**Request**: No request body required.
+- **Request**:
 
--**Response**:
+   - **Format**: JSON
 
-    -**Status**: 200 OK
+   - **Body**:
 
-    -**Content**: List of users in JSON format.
+   ```{
+     "email": "user@example.com",
+     "password": "password123"
+   }```
+
+- **Response**:
+
+   - **Status**: 200 OK
+
+   - **Content**: JSON with user details and a success message.
 
 
 3.  `POST /api/users/signup`: Description: Registers a new user.

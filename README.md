@@ -88,10 +88,10 @@ List and describe the available API endpoints with their corresponding HTTP meth
 
    - **Body**:
 
-   ```bash {
+   ```bash 
      "email": "user@example.com",
      "password": "password123"
-   }```
+   ```
 
 - **Response**:
 

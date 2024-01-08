@@ -15,7 +15,7 @@ The project aims to provide a robust backend architecture and frontend interface
 
 ## Technologies Used
 
-Outline the technologies, programming languages, frameworks, and tools used in the project. Include versions if applicable.
+Outline the technologies, programming languages, frameworks, and tools used in the project.
 
 - Frontend: HTML5, CSS3, JavaScript
 - Backend: Node.js, Express.js
@@ -46,16 +46,20 @@ Outline the technologies, programming languages, frameworks, and tools used in t
 
 ## Usage
 
-Explain how to run the application locally.
+1. Database Configuration
 
-1. Start the backend server:
+    - Open index.js in the models directory and configure the database connection
+
+    `const sequelize = new Sequelize('postgres://user:pass@example.com:5432/dbname') // Example for postgres database connection`
+
+2. Start the backend server:
 
     ```bash
     cd backend
     npm start
     ```
 
-2. Open the html page:
+3. Open the html page:
 
     ```bash
     start http://localhost:8000/login.html
@@ -63,7 +67,6 @@ Explain how to run the application locally.
 
 ## API Endpoints
 
-List and describe the available API endpoints with their corresponding HTTP methods, request formats, and expected responses.
 
 1. `GET /api/users`: 
 
@@ -101,5 +104,25 @@ List and describe the available API endpoints with their corresponding HTTP meth
 
 
 3.  `POST /api/users/signup`: Description: Registers a new user.
+
+- **Description**: Registers a new user.
+
+- **Request**:
+
+   - **Format**: JSON
+
+   - **Body**:
+
+   ```bash 
+     "userName": "Dias",
+     "email": "dias@example.com",
+     "password": "password123"
+   ```
+
+- **Response**:
+
+   - **Status**: 201 created
+
+   - **Content**: JSON with user details and a success message.
 
 

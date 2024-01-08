@@ -73,9 +73,9 @@ List and describe the available API endpoints with their corresponding HTTP meth
 
 -**Response**:
 
-    -**Status**: 200 OK
+   - **Status**: 200 OK
 
-    -**Content**: List of users in JSON format.
+   - **Content**: List of users in JSON format.
 
 
 2. `POST /api/users/login`: 

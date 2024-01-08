@@ -67,11 +67,11 @@ List and describe the available API endpoints with their corresponding HTTP meth
 
 1. `GET /api/users`: 
 
--**Description**: Retrieves a list of users.
+- **Description**: Retrieves a list of users.
 
--**Request**: No request body required.
+- **Request**: No request body required.
 
--**Response**:
+- **Response**:
 
    - **Status**: 200 OK
 

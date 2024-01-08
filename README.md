@@ -1,7 +1,5 @@
 # Project Title
 
-Short description of the project.
-
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -43,7 +41,7 @@ Outline the technologies, programming languages, frameworks, and tools used in t
 3. Setup environment variables:
 
     - Create a `.env` file in the `backend` directory.
-    - Write in the .env file secretKey = secret (any value)
+    - Write in the `.env` file `secretKey = secret` (any value)
 
 
 ## Usage
@@ -75,12 +73,24 @@ List and describe the available API endpoints with their corresponding HTTP meth
 
 -**Response**:
 
-Status: 200 OK
+    -**Status**: 200 OK
 
-Content: List of users in JSON format.
+    -**Content**: List of users in JSON format.
 
 
-2. `POST /api/users/login`: Description: Authenticates a user for login.
+2. `POST /api/users/login`: 
+
+**Description**: Authenticates a user for login.
+
+-**Request**: No request body required.
+
+-**Response**:
+
+    -**Status**: 200 OK
+
+    -**Content**: List of users in JSON format.
+
+
 3.  `POST /api/users/signup`: Description: Registers a new user.
 
 
